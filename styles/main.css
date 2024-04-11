@@ -1,0 +1,23 @@
+/* RESETS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* VARIABLES */
+:root{
+
+    --body-bg: #fef2dc;
+    --header-text: #fef7e9;
+    --body-text: #050505;
+    --headings: #b65949;
+    --primary:#006361;
+    --primary-shadow: #0d4645;
+    --secondary: #d8a25a;
+    --secondary-shadow: #ab8147;
+    --white: #ffffff;    
+}
+
+/* fonts: font-family: "Young Serif", serif;
+font-family: "Open Sans", sans-serif; */
