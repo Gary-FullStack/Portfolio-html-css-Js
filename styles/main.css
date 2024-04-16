@@ -29,12 +29,22 @@
   display: none;
 }
 
-img,
+
 svg {
-  width: 100px;
+  width: 30px;
 }
 
 /* BASE STYLES */
+body {
+  background-color: var(--body-bg);
+}
+
+main {
+  margin-inline: 1rem;
+  background-color: var(--white);
+  padding: 3rem 1rem;
+}
+
 li {
   list-style: none;
 }
@@ -97,6 +107,28 @@ header {
 .mobile-nav a:hover {
   color: var(--secondary);
 }
+
+/* HERO  */
+.hero-img-container {  
+  display: flex;
+  justify-content: center; 
+}
+
+.hero-img-bg {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: var(--secondary);
+
+}
+
+.hero-img-container img{
+  
+  width: 200px;
+}
+
+
+
 
 
 
